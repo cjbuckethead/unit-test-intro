@@ -9,8 +9,7 @@
     "test": "skuba test",
     "test:ci": "skuba test --coverage",
     "test:watch": "skuba test --watch",
-    "start": "node ./src/js/app.js",
-    "start-ts": "ts-node ./src/app.ts"
+    "start": "ts-node ./src/app.ts"
   },
   "dependencies": {
     "skuba-dive": "^2.0.0"

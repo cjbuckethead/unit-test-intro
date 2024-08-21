@@ -1,5 +1,5 @@
-# ts-101
+# unit-test-intro
 
-Starter Demo for Javascript and Typescript 101.
+Starter Demo for Unit Testing
 
 Run `yarn start` to start the app.
