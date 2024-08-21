@@ -1,2 +1,2 @@
 /* eslint-disable no-console */
-console.log('Hello world');
+console.log('Copy your app.js and start adding types!');
