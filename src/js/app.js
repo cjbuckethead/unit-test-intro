@@ -2,14 +2,16 @@
 
 const state = {};
 
+// TODO: you can remove this eslint rule when you start coding and using the `payload`
+// eslint-disable-next-line no-unused-vars
 const reducer = ({ action, payload }) => {
   switch (action) {
     case 'ACTION_1':
       // do reducer things
       return {
         ...state,
-        // modify state here if needed
-        reviews: [...state.reviews, payload],
+        // modify state here if needed, maybe like:
+        // reviews: [...state.reviews, payload],
       };
     case 'ACTION_2':
       console.log(state.someValue);
@@ -25,5 +27,3 @@ reducer({
   payload: { newReview: 'this course is so good', rating: 5 },
 });
 reducer({ action: 'ACTION_2' });
-reducer({ action: 'ACTION_3' });
-reducer({ action: 'ACTION_4' });
