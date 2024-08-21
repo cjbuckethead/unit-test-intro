@@ -9,14 +9,16 @@
     "test": "skuba test",
     "test:ci": "skuba test --coverage",
     "test:watch": "skuba test --watch",
-    "start": "node ./src/js/app.js"
+    "start": "node ./src/js/app.js",
+    "start-ts": "ts-node ./src/app.ts"
   },
   "dependencies": {
     "skuba-dive": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.5",
-    "skuba": "7.0.1"
+    "skuba": "7.0.1",
+    "ts-node": "10.9.2"
   },
   "engines": {
     "node": ">=18.12"
